@@ -25,6 +25,11 @@ source $HOME/.local/bin/env
 uv sync
 source .venv/bin/activate
 
+# install nvdiffrast from source while the venv is active
+git clone https://github.com/NVlabs/nvdiffrast.git
+cd nvdiffrast
+uv pip install .
+
 # patch things that aren't yet in official pip packages
 ./patching/hydra # https://github.com/facebookresearch/hydra/pull/2863
 ```
