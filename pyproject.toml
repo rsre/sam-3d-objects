@@ -28,7 +28,6 @@ dependencies = [
   "xformers==0.0.33",
   "gradio==5.49.0",
   "gsplat @ git+https://github.com/nerfstudio-project/gsplat.git@2323de5905d5e90e035f792fe65bad0fedd413e7",
-  "kaolin==0.18.0",
   "seaborn==0.13.2",
   "flash_attn==2.8.3",
   "pytorch3d==0.7.9",
@@ -49,7 +48,6 @@ extra-index-url = [
   "https://pypi.ngc.nvidia.com",
   "https://download.pytorch.org/whl/cu129",
 ]
-find-links = ["https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.9.1_cu129.html"]
 index-strategy = "unsafe-best-match"
 
 [tool.uv.extra-build-dependencies]
