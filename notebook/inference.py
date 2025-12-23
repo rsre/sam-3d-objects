@@ -14,7 +14,6 @@ if _cuda_home:
     os.environ["CUDA_HOME"] = _cuda_home
 os.environ["LIDRA_SKIP_INIT"] = "true"
 
-import sys
 from typing import Union, Optional, List, Callable
 import numpy as np
 from PIL import Image
@@ -26,13 +25,10 @@ import utils3d
 import shutil
 import subprocess
 import seaborn as sns
-from PIL import Image
 import numpy as np
 import gradio as gr
 import matplotlib.pyplot as plt
 from copy import deepcopy
-from kaolin.visualize import IpyTurntableVisualizer
-from kaolin.render.camera import Camera, CameraExtrinsics, PinholeIntrinsics
 import builtins
 from pytorch3d.transforms import quaternion_multiply, quaternion_invert
 
