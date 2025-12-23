@@ -14,6 +14,7 @@ dependencies = [
   "igraph==0.11.8",
   "lightning==2.6.0",
   "loguru==0.7.2",
+  "nvdiffrast @ git+https://github.com/NVlabs/nvdiffrast.git@253ac4fcea7de5f396371124af597e6cc957bfae",
   "nvidia-cuda-nvcc-cu12>=12.6.77",
   "open3d==0.18.0",
   "opencv-python==4.12.0.88",
